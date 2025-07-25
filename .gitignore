@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+.Python/
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.txt
+htmlcov/
+.nox/
+.tox/
+.venv/
+venv/
+env/
+pip-wheel-metadata/
+.coverage
+.pytest_cache/
+
+# Editors
+.DS_Store # macOS
+.vscode/ # VS Code
+*.sublime-project
+*.sublime-workspace
+.idea/ # IntelliJ IDEA / PyCharm
+*.iml
+*.iws
+*.ipr
+
+# PyCharm specific
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/shelf/
+.idea/dataSources/
+.idea/sqlDataSources.xml
+.idea/sqldialects.xml
+.idea/dictionaries/
+.idea/misc.xml # This line specifically ignores misc.xml, you might want to keep it if you share project settings
+!/misc.xml # This line attempts to re-include misc.xml. If you want to include it, remove the line above.
+.idea/modules.xml # Generally safe to ignore
+.idea/vcs.xml # Generally safe to ignore
+.idea/profiles_settings.xml # Generally safe to ignore
+
+# Jupyter Notebook
+.ipynb_checkpoints
