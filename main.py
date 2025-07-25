@@ -62,7 +62,7 @@ if __name__ == "__main__":
 
     # Example 1: Split pages 2 to 4 from 'example.pdf'
     print("--- Running Example 1 ---")
-    split_pdf_by_range('C:\\Users\\Reception-IL\\Downloads\\billy\\computer_network\\חוברת הקורס.pdf', 'C:\\Users\\Reception-IL\\Downloads\\billy\\computer_network\\mmh-1.pdf', 11, 14)
+    split_pdf_by_range('non_existent.pdf', 'output_non_existent.pdf', 1, 2)
     print("\n")
 
     # Example 2: Try to split a non-existent file
