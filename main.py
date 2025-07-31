@@ -62,24 +62,23 @@ if __name__ == "__main__":
 
     # Example 1: Split pages 2 to 4 from 'example.pdf'
     print("--- Running Example 1 ---")
-    split_pdf_by_range('non_existent.pdf', 'output_non_existent.pdf', 1, 2)
+    split_pdf_by_range('C:\\Users\\SECGUARDHQ\\Downloads\\Billy\\intro_to_computer_networks\\study_notebook.pdf', 'SN_chapter 2.pdf', 17, 29)
     print("\n")
 
     # Example 2: Try to split a non-existent file
-    print("--- Running Example 2 (Non-existent file) ---")
-    split_pdf_by_range('non_existent.pdf', 'output_non_existent.pdf', 1, 2)
+    print("--- Running Example 2")
+    #split_pdf_by_range('C:\\Users\\SECGUARDHQ\\Downloads\\Billy\\intro_to_computer_networks\\book.pdf', 'chapter 3.pdf', 217, 279)
     print("\n")
 
     # Example 3: Try with invalid page range (assuming 'example.pdf' exists and has enough pages)
     # You might need to create a 'example.pdf' for this to demonstrate correctly
-    print("--- Running Example 3 (Invalid page range) ---")
-    split_pdf_by_range('example.pdf', 'output_invalid_range.pdf', 1,
-                       999)  # Assuming example.pdf has fewer than 999 pages
+    print("--- Running Example 3")
+    #split_pdf_by_range('C:\\Users\\SECGUARDHQ\\Downloads\\Billy\\intro_to_computer_networks\\book.pdf', 'chapter 4.pdf', 281,354+24)
     print("\n")
 
     # Example 4: Start page greater than end page
     print("--- Running Example 4 (Start > End page) ---")
-    split_pdf_by_range('example.pdf', 'output_start_gt_end.pdf', 5, 2)
+    split_pdf_by_range('C:\\Users\\SECGUARDHQ\\Downloads\\Billy\\intro_to_computer_networks\\book.pdf', 'chapter 5.pdf', 5, 2)
     print("\n")
 
     # To run this script:
