@@ -60,26 +60,29 @@ if __name__ == "__main__":
     # IMPORTANT: Replace 'input.pdf' with the actual path to your PDF file
     # and 'output_split.pdf' with your desired output file name.
 
-    # Example 1: Split pages 2 to 4 from 'example.pdf'
-    print("--- Running Example 1 ---")
-    split_pdf_by_range('C:\\Users\\SECGUARDHQ\\Downloads\\Billy\\intro_to_computer_networks\\study_notebook.pdf', 'SN_chapter 2.pdf', 17, 29)
-    print("\n")
+    # -- book
+    # split_pdf_by_range('C:\\Users\\Reception-IL\\Downloads\\billy\\computer_network\\book.pdf', 'chapter 1.pdf', 24, 88+24)
+    # split_pdf_by_range('C:\\Users\\Reception-IL\\Downloads\\billy\\computer_network\\book.pdf', 'chapter 2.pdf', 89+24,192 + 24)
+    # split_pdf_by_range('C:\\Users\\Reception-IL\\Downloads\\billy\\computer_network\\book.pdf', 'chapter 3.pdf', 193+24,255 + 24)
+    # split_pdf_by_range('C:\\Users\\Reception-IL\\Downloads\\billy\\computer_network\\book.pdf', 'chapter 4.pdf', 257 +24,354 + 24)
+    # split_pdf_by_range('C:\\Users\\Reception-IL\\Downloads\\billy\\computer_network\\book.pdf', 'chapter 5.pdf', 355+24,494 + 24)
+    # split_pdf_by_range('C:\\Users\\Reception-IL\\Downloads\\billy\\computer_network\\book.pdf', 'chapter 6.pdf', 495+24,610 + 24)
+    # split_pdf_by_range('C:\\Users\\Reception-IL\\Downloads\\billy\\computer_network\\book.pdf', 'chapter 7.pdf', 611+24,762 + 24)
 
-    # Example 2: Try to split a non-existent file
-    print("--- Running Example 2")
-    #split_pdf_by_range('C:\\Users\\SECGUARDHQ\\Downloads\\Billy\\intro_to_computer_networks\\book.pdf', 'chapter 3.pdf', 217, 279)
-    print("\n")
+    # -- course_notebook
+    #split_pdf_by_range('C:\\Users\\Reception-IL\\Downloads\\billy\\computer_network\\course_notebook.pdf', 'mmh1.pdf', 24,88 + 24)
+    #split_pdf_by_range('C:\\Users\\Reception-IL\\Downloads\\billy\\computer_network\\course_notebook.pdf', 'mmn11.pdf',15, 17)
+    #split_pdf_by_range('C:\\Users\\Reception-IL\\Downloads\\billy\\computer_network\\course_notebook.pdf', 'mmh2.pdf',19, 23)
+    #split_pdf_by_range('C:\\Users\\Reception-IL\\Downloads\\billy\\computer_network\\course_notebook.pdf', 'mmh3.pdf',25, 28)
 
-    # Example 3: Try with invalid page range (assuming 'example.pdf' exists and has enough pages)
-    # You might need to create a 'example.pdf' for this to demonstrate correctly
-    print("--- Running Example 3")
-    #split_pdf_by_range('C:\\Users\\SECGUARDHQ\\Downloads\\Billy\\intro_to_computer_networks\\book.pdf', 'chapter 4.pdf', 281,354+24)
-    print("\n")
+    # -- study_notebook
+    split_pdf_by_range('C:\\Users\\Reception-IL\\Downloads\\billy\\computer_network\\course_notebook.pdff','SN_chapter 2.pdf', 17, 29)
+    #split_pdf_by_range('C:\\Users\\Reception-IL\\Downloads\\billy\\computer_network\\study_notebook.pdf', 'SN_chapter 2.pdf',17, 29)
+    #split_pdf_by_range('C:\\Users\\Reception-IL\\Downloads\\billy\\computer_network\\study_notebook.pdf', 'SN_chapter 3.pdf',31, 49)
+    #split_pdf_by_range('C:\\Users\\Reception-IL\\Downloads\\billy\\computer_network\\study_notebook.pdf', 'SN_chapter 4.pdf',51, 65)
+    #split_pdf_by_range('C:\\Users\\Reception-IL\\Downloads\\billy\\computer_network\\study_notebook.pdf','SN_chapter 5.pdf', 67, 96)
+    #split_pdf_by_range('C:\\Users\\Reception-IL\\Downloads\\billy\\computer_network\\study_notebook.pdf','SN_chapter 6.pdf', 97, 113)
 
-    # Example 4: Start page greater than end page
-    print("--- Running Example 4 (Start > End page) ---")
-    split_pdf_by_range('C:\\Users\\SECGUARDHQ\\Downloads\\Billy\\intro_to_computer_networks\\book.pdf', 'chapter 5.pdf', 5, 2)
-    print("\n")
 
     # To run this script:
     # 1. Save the code as a .py file (e.g., pdf_splitter.py).
